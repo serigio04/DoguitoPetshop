@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding-top: 1rem;
+}
+
+.cabecalho__logo{
+  width: 2.625rem;
+  margin: 0.6rem 0;
 }
 
 .registry-header__logo {
