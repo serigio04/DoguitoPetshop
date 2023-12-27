@@ -1,8 +1,7 @@
-.cadastro-cabecalho {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding-top: 1rem;
 }
 
@@ -26,4 +25,4 @@
   .registry-header__title {
     margin-bottom: 2rem;
   }
-}
+} 

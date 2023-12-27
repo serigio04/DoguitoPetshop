@@ -51,4 +51,4 @@ clientServices
       table.appendChild(nuevaLinea);
     });
   })
-  .catch((error) => alert("Ocurrió un error"));
+  .catch((err) => alert("Ocurrió un error"));
