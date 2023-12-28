@@ -35,7 +35,7 @@ const crearNuevaLinea = (nombre, email, id) => {
       .then((respuesta) => {
         console.log(respuesta);
       })
-      .catch((err) => alert("Ocurrió un error"));
+      .catch((err) => alert(err, " error de eliminar"));
   });
 
   return linea;
@@ -51,4 +51,4 @@ clientServices
       table.appendChild(nuevaLinea);
     });
   })
-  .catch((err) => alert("Ocurrió un error"));
+  .catch((err) => console.log(err, " de nueva linea"));
