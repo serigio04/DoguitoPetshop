@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--contrast-ligth-color);
+    border-radius: 10px 10px 0 0;
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    margin-top: 2rem;
+}
+
+.footer__list {
+    display: flex;
+}
+  
+.footer__link {
+    margin-left: 2rem;
+}
+
+.footer__span{
+    margin-left: 2vw;
+}
