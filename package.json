@@ -1,22 +1,17 @@
 {
   "name": "admin",
   "version": "1.0.0",
-  "description": "1836-crud_js_async project",
+  "description": "Doguito Petshop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarlandLohora/1836-CRUD_JS_Async.git"
+    "url": "git+https://github.com/serigio04/DoguitoPetshop"
   },
-  "keywords": [
-    "Alura"
-  ],
-  "author": "Harland Lohora",
+  "author": "Sergio Gomar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HarlandLohora/1836-CRUD_JS_Async/issues"
-  },
-  "homepage": "https://github.com/HarlandLohora/1836-CRUD_JS_Async#readme"
+  "bugs": "",
+  "homepage": "https://github.com/serigio04/DoguitoPetshop"
 }
