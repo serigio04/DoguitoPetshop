@@ -3,20 +3,29 @@
     border-radius: 10px 10px 0 0;
     box-shadow: var(--shadow);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 6rem;
-    margin-top: 2rem;
+    min-height: 6rem;
+    margin-top: 4vh;
 }
-
-.footer__list {
+.contacto{
     display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 2rem;
 }
-  
 .footer__link {
-    margin-left: 2rem;
+    display: flex;
+    margin-left: 1.5rem;
+    width: 12vw;
 }
 
 .footer__span{
     margin-left: 2vw;
+    font-weight: bold;
+}
+
+.footer__img{
+    width: 100%;
 }

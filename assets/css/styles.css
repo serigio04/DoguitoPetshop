@@ -1,5 +1,5 @@
 main{
-    max-width: 1000px;
+    max-width: 50vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -24,17 +24,39 @@ main{
 section{
     width: 80%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2vh;
-    justify-content: space-evenly;
 }
 
 .main_link{
     width: calc(100%/6);
-    height: 130px;
+    height: 12vh;
     background-color: var(--secundary-color);
     margin: 1vw;
     padding: 1%;
     border-radius: 15px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.main__section{
+    background-color: var(--contrast-ligth-color);
+    padding: .5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+.main__section span{
+    margin: auto;
+    font-weight: bold;
+}
+
+.section__img{
+    width: 60%;
+    margin: auto;
 }
