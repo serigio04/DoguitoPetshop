@@ -1,8 +1,50 @@
-.cadastro {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-}
 .header_logo{
     width: 3rem;
 } 
+
+section{
+    min-height: 62vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.productos{
+    height: 61vh;
+    width: 90%;
+    background-color: var(--contrast-ligth-color);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.nav__productos{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.list__option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.option:hover{
+    cursor: pointer;
+    font-weight: 900;
+    text-shadow: var(--shadow);
+}
+
+.productos_overflow{
+    overflow-y: scroll;
+    height: 96%;
+}
+.art__productos{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.producto{
+    width: 20%;
+    height: 30vh;
+    margin: 2rem;
+    border-radius: 8px;
+    background-color: lightgray;
+}
