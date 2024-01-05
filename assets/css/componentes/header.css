@@ -20,3 +20,6 @@
 .header__link {
   margin-left: 2rem;
 }
+.header__link:hover{
+  font-weight: bold;
+}
