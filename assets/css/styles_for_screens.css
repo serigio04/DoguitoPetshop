@@ -116,12 +116,28 @@ section{
 .mascotas_head{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.mascotas_head span{
     font-family: var(--font-family-logo);
     font-size: 3rem;
-    margin-bottom: 1rem
 }
 
+.mascotas_head button{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--contrast-ligth-color);
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all .6s;
+}
+
+.mascotas_head button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 500;
+}
 .mascotas_body{
     overflow-y: scroll;
     height: 96%;
@@ -150,9 +166,12 @@ section{
 }
 
 .mascota_img img{
+    border-radius: 10px 10px 0 0; 
+}
+
+.mascota_img-pic{
+    height: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
-    
 }
 
 .mascota_info{
