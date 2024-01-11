@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Doguito Petshop | Registrar producto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Pacifico&family=Prata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/base/base.css" />
+        <link rel="stylesheet" href="../assets/css/componentes/header.css" />
+        <link rel="stylesheet" href="../assets/css/componentes/card.css" />
+        <link rel="stylesheet" href="../assets/css/componentes/inputs.css" />
+        <link rel="stylesheet" href="../assets/css/componentes/button.css">
+        <link rel="stylesheet" href="../assets/css/cadastro_produto.css" />
+      </head>
+      <body>
+        <header class="header container">
+          <a href="index.html">
+            <img src="../assets/img/doguitoadm.svg" alt="Logotipo Doguito" class="header__logo"/>
+          </a>
+          <nav>
+            <ul class="header__list-nav">
+              <li class="header__link"><a href="Dashboard.html">Dashboard</a></li>
+              <li class="header__link"><a href="Productos.html">Productos</a></li>
+              <li class="header__link">
+                <a href="lista_cliente.html">Clientes </a>
+              </li>
+              <li class="header__link"><a href="pets.html">Pets</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main class="container flex flex--center flex--column">
+          <section class="card cadastro">
+            <h1 class="card__title">Registrar Mascota</h1>
+            <form action="./registro_pet_concluido.html" class="flex flex--column">
+              <div class="input-container">
+                <input
+                  name="name"
+                  id="name"
+                  class="input"
+                  type="text"
+                  placeholder="Nombre"
+                />
+                <label class="input-label" for="name">Nombre</label>
+                <!-- <span class="input-message-error">Este campo no es valido</span> -->
+              </div>
+              <div class="input-container registry__age-container">
+                <input
+                  name="age"
+                  id="age"
+                  class="input"
+                  type="text"
+                  placeholder="Precio"
+                />
+                <label class="input-label" for="age">Edad</label>
+                <!-- <span class="input-message-error">Este campo no es valido</span> -->
+              </div>
+              <div class="input-container registry__img-container">
+                <input
+                  type="file"
+                  class="input"
+                  name="img"
+                  id="img"
+                />
+                <label class="input-label" for="img">Imagen</label>
+                <!-- <span class="input-message-error">Este campo no es valido</span> -->
+              </div>
+              <button class="button">Registrar</button>
+            </form>
+          </section>
+        </main>
+      </body>
+</html>
