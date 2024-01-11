@@ -17,7 +17,7 @@ section{
     border-radius: 10px;
 } 
 .nav__productos{
-    width: 50%;
+    width: 70%;
     margin: auto;
     margin-bottom: 1rem;
 }
@@ -25,6 +25,9 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.option{
+    margin-left: 4vw;
 }
 .option:hover{
     cursor: pointer;
@@ -124,7 +127,7 @@ section{
     font-size: 3rem;
 }
 
-.mascotas_head button{
+.button_add{
     padding: 1rem;
     background-color: var(--primary-color);
     color: var(--contrast-ligth-color);
@@ -133,7 +136,7 @@ section{
     transition: all .6s;
 }
 
-.mascotas_head button:hover{
+.button_add:hover{
     cursor: pointer;
     transform: scale(1.1);
     font-weight: 500;
