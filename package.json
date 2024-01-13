@@ -13,5 +13,8 @@
   "author": "Sergio Gomar",
   "license": "ISC",
   "bugs": "",
-  "homepage": "https://github.com/serigio04/DoguitoPetshop"
+  "homepage": "https://github.com/serigio04/DoguitoPetshop",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
