@@ -31,7 +31,7 @@ app.post('/agregarMascota', (req, res) => {
   res.json({ mensaje: 'Mascota agregada exitosamente' });
 });
 
-const puerto = 5500;
+const puerto = 4000;
 app.listen(puerto, () => {
   console.log(`Servidor escuchando en http://localhost:${puerto}`);
 });
