@@ -1,4 +1,5 @@
-import { clientServices } from "../service/client-service.js";
+import * as clientServiceModule from "../service/client-service.cjs";
+const clientServices = clientServiceModule.clientServices;
 
 //backticks
 const crearNuevaLinea = (nombre, email, id) => {

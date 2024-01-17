@@ -13,7 +13,8 @@
         div_mImg.classList.add("mascota_img");
         const pet_img = document.createElement("img");
         pet_img.classList.add("mascota_img-pic");
-        div_mImg.src = img;
+        const imgSrc = img.src;
+        div_mImg.src = imgSrc;
         div_mImg.appendChild(pet_img); //
         const div_mInfo = document.createElement("div");
         div_mInfo.classList.add("mascota_info");
@@ -26,7 +27,7 @@
         div_m.appendChild(div_mImg);
         div_m.appendChild(div_mInfo);
 
-        fetch('http://localhost:5500/agregarMascota', {
+        fetch('http://localhost:5500/agregarPet', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
