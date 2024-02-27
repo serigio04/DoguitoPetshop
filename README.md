@@ -1,5 +1,5 @@
 ### Página sigue en desarrollo
-#Doguito Petshop
+# Doguito Petshop
 <p>Doguito petshop es una e-comerce donde se pueden encontrar articulos y mascotas, este e-comerce no pertenece a una tienda real</p>
 <p>Para elaborar Dogioto petshop se hizo uso de los siguientes conocimientos:</p>
 <ul>
